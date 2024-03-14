@@ -21,7 +21,6 @@ https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data?resource=down
 
 -https://www.kaggle.com/code/yusupibrahim/selling-price-predic-with-stacked-gen-r2-0-96 provides good example code
 
-
 ## Kaggle Data Card ##
 
 About Dataset
