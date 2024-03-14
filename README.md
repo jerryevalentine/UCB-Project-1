@@ -3,6 +3,26 @@
 ## Data Source ##
 https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data?resource=download
 
+## Datasets ##
+
+### Prefered dataset ###
+- We will first need to determine the feasibility of using the car sales dataset.
+- Need to check for nulls and use regular expressions to search for any garbage (corrupt data, data that should not be in the cell, etc.).  If the car sales is not appropriate then we will evaluate the credit card fraud dataset.
+- Note the dataset has a 10 usability score, which I believe is the highest.  This notebook is for due dillegence and also providing the metadata for the dataset.
+
+-https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data
+
+-https://www.kaggle.com/datasets/kelvinkelue/credit-card-fraud-prediction
+
+## Criteria for inclusion: ##
+-Sufficiently large (558,837 records)
+-Loads in about 15 seconds on mny computer
+-11% of the Transmission records are null
+
+
+-https://www.kaggle.com/code/yusupibrahim/selling-price-predic-with-stacked-gen-r2-0-96 provides good example code
+
+
 ## Kaggle Data Card ##
 
 About Dataset
