@@ -19,7 +19,6 @@ https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data?resource=down
 -Loads in about 15 seconds on mny computer
 -11% of the Transmission records are null
 
-
 -https://www.kaggle.com/code/yusupibrahim/selling-price-predic-with-stacked-gen-r2-0-96 provides good example code
 
 
