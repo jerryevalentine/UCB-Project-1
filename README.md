@@ -26,7 +26,7 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 - Row 2:  Shows that age improves the r-value of the regression model. 
 
 
---Make-Model-type
+## Table 1: Make-Model-Type
 
 | Make | Make-Model| Make-Model-Type |
 |----------|----------|----------|
@@ -34,7 +34,7 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 
 
 
-## Sale Price Versus
+## Table 2: Sale Price Versus
 
 |               | All Cars | Luxury | Economy |
 |---------------|----------|--------|---------|
