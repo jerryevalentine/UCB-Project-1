@@ -31,7 +31,7 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 
 
 
-<img src="Images/SalePrice v odometer economy Cars.png" alt="Alt text" width="400" height="300">
+
 <img src="Images/SalePrice v age all Cars.png" alt="Alt text" width="400" height="300">
 <img src="Images/SalePrice v age Luxury Cars.png" alt="Alt text" width="400" height="300">
 <img src="Images/SalePrice v age economy Cars.png" alt="Alt text" width="400" height="300">
@@ -45,8 +45,12 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 |Row 1:Depreciation 
 <img src="Images/Make_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">|  
 <img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold_one_regression_line.png" alt="Alt text" width="400" height="300"> | 
-<img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">
+<img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">| 
 
+|Row 2:Odometer 
+<img src="Images/SalePrice v Odometer all Cars.png" alt="Alt text" width="400" height="300">|
+<img src="Images/SalePrice v Odometer Luxury Cars.png" alt="Alt text" width="400" height="300">|
+<img src="Images/SalePrice v odometer economy Cars.png" alt="Alt text" width="400" height="300">|
 
 
 ### Challenges and Next Steps ###
