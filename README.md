@@ -7,14 +7,19 @@
 
 # Summary and Findings #
 Our team assumes that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations and next steps.
+
+
 ### Goal ###
 The goal of the project is to find and present the best models to explain variation in sales price over time.  Specifically, the goal is to find one or more models that have the highest r-value or r squared value.  For now we only look at models models with two variables.  A single regression model with multiple independent variables is ideal.  However, it might be necessary to consider multiple models.
+A good example of what we would like to acheive is the correlation between Manheim Market Report (mmr) and sale price (0.98).
+Manheim (MMR) website: https://site.manheim.com/en/help/mmr.html
+
 ### Approach ###
 We started our analysis at a course granularity of analysis (such as car make or model) and provide statistical analysis and visualizations.  Next, we then drilled down to a finer level of granularity, such as type of car (Truck, Sedan, Luxury, etc.).  This methodology ensures that we can find the models with the highests r-values.
 
 ### Major Findings ###
 As we refined the regression models (course-to-finle granularity), our explanatory power increased (higher r-value).  
-See table 1 for following Analysis
+Table 1 below shows the progression from course to fine level analysis (left-to-right) for different explanatory variables.
 - The table below suggests a lineage regression model with many variables can have provide a very good model. 
 - Row 1:  Shows how drilling-down from make, to make-model, to focusing on type, improves the r-value of the regression model. 
 - Row 2:  Shows that focusing on luxury models versus economy models improves the r-value of the regression model. 
