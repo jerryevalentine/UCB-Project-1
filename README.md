@@ -30,8 +30,7 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 
 
 
-<img src="Images/SalePrice v Odometer all Cars.png" alt="Alt text" width="400" height="300">|
-<img src="Images/SalePrice v Odometer Luxury Cars.png" alt="Alt text" width="400" height="300">
+
 <img src="Images/SalePrice v odometer economy Cars.png" alt="Alt text" width="400" height="300">
 <img src="Images/SalePrice v age all Cars.png" alt="Alt text" width="400" height="300">
 <img src="Images/SalePrice v age Luxury Cars.png" alt="Alt text" width="400" height="300">
@@ -43,11 +42,12 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 
 | Make | Make-Model| Make-Model-Type |
 |----------|----------|----------|
-|Row 1:Depreciation <img src="Images/Make_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">|  <img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold_one_regression_line.png" alt="Alt text" width="400" height="300"> | <img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">
-|Row 2:Odometer |----------|----------|
-|Row 3:Age|----------|----------|
+|Row 1:Depreciation 
+<img src="Images/Make_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">|  
+<img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold_one_regression_line.png" alt="Alt text" width="400" height="300"> | 
+<img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">
 
-Table 1 - Refining Regression Models
+
 
 ### Challenges and Next Steps ###
 - Use multiple variable regression model to further increase model predictions based on the work in this presentation.  Here is an example one:
