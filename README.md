@@ -48,9 +48,9 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 <img src="Images/Make_model_type_mean_selling_price_vs_age_when_sold.png" alt="Alt text" width="400" height="300">| 
 
 |Row 2:Odometer 
-<img src="Images/SalePrice v Odometer all Cars.png" alt="Alt text" width="400" height="300">|
-<img src="Images/SalePrice v Odometer Luxury Cars.png" alt="Alt text" width="400" height="300">|
-<img src="Images/SalePrice v odometer economy Cars.png" alt="Alt text" width="400" height="300">|
+<img src="Images/SalePrice v Odometer all Cars.png" alt="Alt text" width="300" height="350">|
+<img src="Images/SalePrice v Odometer Luxury Cars.png" alt="Alt text" width="300" height="350">|
+<img src="Images/SalePrice v odometer economy Cars.png" alt="Alt text" width="300" height="350">|
 
 
 ### Challenges and Next Steps ###
