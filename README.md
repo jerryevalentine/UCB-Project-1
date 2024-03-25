@@ -8,7 +8,6 @@
 # Summary and Findings #
 Our team assumes that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations and next steps.
 
-
 ### Goal ###
 The goal of the project is to find and present the best models to explain variation in sales price over time.  Specifically, the goal is to find one or more models that have the highest r-value or r squared value.  For now we only look at models models with two variables.  A single regression model with multiple independent variables is ideal.  However, it might be necessary to consider multiple models.
 A good example of what we would like to acheive is the correlation between Manheim Market Report (mmr) and sale price (0.98).
@@ -111,36 +110,24 @@ Data Integrity: Efforts have been made to ensure the accuracy and reliability of
 
 Update Frequency: The dataset may be periodically updated to include new sales transactions and market data, providing fresh insights into ongoing trends in the automotive industry.
 
-# Requirements #
-
-### Completed Analysis Uploaded to GitHub (20 points)
-
--Final data analysis contains ample and complete information in README file (10 points) - car_prices.csv, clean_car_prices.csv and readme
--Final repository is acceptable for professional quality presentation (10 points)
-
-### Visualizations (20 points)
-
--6–8 visualizations of data (at least two per question) (10 points)
--Clear and accurate labeling of images (5 points)
--Visualizations supported with ample and precise explanation (5 points)
-
-### Analysis and Conclusion (20 points)
-
--Write-up summarizes major findings and implications at a professional level (5 points)
--Each question in the project proposal is answered with precise descriptions and findings (5 points)
--Findings are strongly supported with numbers and visualizations (5 points)
--Each question response is supported with a well-discerned statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and time series analysis) (5 points)
-
-### Group Presentation (20 points)
--All group members spoke during the presentation (5 points)
--Group was well prepared (5 points)
--Presentation is relevant to material (5 points)
--Presentation maintains audience interest (5 points)
-
-### Slide Deck (20 points)
--Slides are visually clean and professional (5 points)
--Slides are relevant to material (5 points)
--Slides effectively demonstrate the project (5 points)
--Slides are clear and maintain audience interest (5 points)
-
-### This project will be evaluated against the requirements and assigned a grade according to the following table:
+# Appendix A: Columns and Datatypes #
+year ( int64) The manufacturing year of the vehicle.<br> 
+make (object): The brand or manufacturer of the vehicle.<br> 
+model (object): The specific model of the vehicle.<br> 
+body (object): The vehicle’s body type (e.g., Sedan, SUV, etc.).<br> 
+transmission (object): The type of transmission in the vehicle (e.g., automatic).<br> 
+vin (object): Vehicle Identification Number, a unique code for each vehicle.<br> 
+state (object): The state where the vehicle is registered.<br> 
+condition (float64): Condition of the vehicle, possibly rated on a scale.<br> 
+odometer (float64): The vehicle’s mileage.<br> 
+color (object): Exterior color of the vehicle.<br> 
+interior (object): The vehicle’s interior color.<br> 
+seller (object): The entity that sold the vehicle.<br> 
+mmr (float64): The Manheim Market Report value (estimated market value).<br> 
+sellingprice (float64): The final price at which the vehicle was sold.<br> 
+saledate (object): The date and time of the sale.<br> 
+saleyear (int64): The year in which the vehicle was sold.<br> 
+age ( int64): The age of the vehicle at the time of sale.<br> 
+pct_mmr ( float64) The percentage of the MMR value at which the vehicle was sold.<br> 
+age_when_sold ( int64) The age of the vehicle when it was sold.<br> 
+Make-Model (object): Combined column representing the make and model of the vehicle.<br> 
