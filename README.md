@@ -1,15 +1,19 @@
 # Instructions #
-- Run the final notebook 'Project_1_Group_7_Consolidated.ipynb' to see visualization and statistics that were used during this presentation.
-- The file called "Data/clean_car_prices.zip" is zipped due to size constraings.
-- The notebook must reside in a directory that has the following path and filename: "Data/clean_car_prices.csv"
+- Run the final notebook 'Project_1_Group_7_Consolidated.ipynb' to see visualization and statistics.
+- The data for this notebook is Data/car_prices.csv
+- However, the file in Github is "Data/car_prices.zip."  The CSV is zipped due to size constraings.
+- The file needs to be unzipped.
+- The notebook must reside in a directory that has the following path and filename: "Data/car_prices.csv"
 
-# Analysis #
-
+# Summary and Findings #
+Our team assumes that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations and next steps.
 ### Goal ###
-We assume that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations for future analysis.
-Goal of the project is to present the best models to explain variation in sales price changes for used cars and provide next steps for future projects.  We start with a course level of data (such as car make) and then drill down to a finer level of granularity, such as type of car (Truck, Sedan, Luxury, etc.). 
+The goal of the project is to find and present the best models to explain variation in sales price over time.  Specifically, the goal is to find one or more models that have the highest r-value or r squared value.  For now we only look at models models with two variables.  A single regression model with multiple independent variables is ideal.  However, it might be necessary to consider multiple models.
+### Approach ###
+We started our analysis at a course granularity of analysis (such as car make or model) and provide statistical analysis and visualizations.  Next, we then drilled down to a finer level of granularity, such as type of car (Truck, Sedan, Luxury, etc.).  This methodology ensures that we can find the models with the highests r-values.
+
 ### Major Findings ###
-As we refined the regression models, explanatory power increased (higher r-value).  
+As we refined the regression models (course-to-finle granularity), our explanatory power increased (higher r-value).  
 See table 1 for following Analysis
 - The table below suggests a lineage regression model with many variables can have provide a very good model. 
 - Row 1:  Shows how drilling-down from make, to make-model, to focusing on type, improves the r-value of the regression model. 
@@ -27,7 +31,7 @@ See table 1 for following Analysis
 
 Table 1 - Refining Regression Models
 
-### Next Steps and recommendations ###
+### Challenges and Next Steps ###
 - Use multiple variable regression model to further increase model predictions based on the work in this presentation.  Here is an example one:
 
 
