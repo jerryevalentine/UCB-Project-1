@@ -33,7 +33,12 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 - Row 1:  Shows that seperating out economy and luxury cars improves the r-value when run against odometer. 
 - Row 2:  Shows that seperating out economy and luxury cars improves the r-value when run against age. 
 
-Table 3 below shows the mean selling price and count by season 
+Table 3.1 below shows the average selling price by month
+- Line chart showcases monthly average selling prices.
+- Prices begin moderately in January, drop sharply in April, after rising and reaching its peak in July.
+- Then, prices decline gradually from August to December.
+
+Table 3.2 below shows the mean selling price and count by season 
 - The Purple line represents the mean selling price, while the blue line represents the count of sales. The analysis reveals distinct patterns across different seasons:
 - - Spring: Prices are moderate, and sales are relatively low.
 - - Summer: Prices significantly increase, with sales remaining consistent.
@@ -60,10 +65,11 @@ Table 3 below shows the mean selling price and count by season
 | **Odometer**  | ![All Cars](Images/SalePrice%20v%20Odometer%20all%20Cars.png "All Cars") | ![Luxury Cars](Images/SalePrice%20v%20Odometer%20Luxury%20Cars.png "Luxury Cars") | ![Economy Cars](Images/SalePrice%20v%20odometer%20economy%20Cars.png "Economy Cars") |
 | **Age**       | ![All Cars](Images/SalePrice%20v%20age%20all%20Cars.png "All Cars") | ![Luxury Cars](Images/SalePrice%20v%20age%20Luxury%20Cars.png "Luxury Cars") | ![Economy Cars](Images/SalePrice%20v%20age%20economy%20Cars.png "Economy Cars") |
 
-## Table 3: Mean Selling Price and Count by Season ##
+## Table 3.1: Average Selling Price by Month 
+<img width="600" alt="Average Selling Price by Month" src="https://github.com/jerryevalentine/UCB-Project-1/assets/158235055/9f600caf-cc10-41ad-af1f-73f10c301e25">
 
-<img width="972" alt="Mean Selling Price and Count by Season" src="https://github.com/jerryevalentine/UCB-Project-1/assets/158235055/0d1d8412-cdf7-49c2-9794-8c498481dafe">
-
+## Table 3.2: Mean Selling Price and Count by Season 
+<img width="600" alt="Mean Selling Price and Count by Season" src="https://github.com/jerryevalentine/UCB-Project-1/assets/158235055/0d1d8412-cdf7-49c2-9794-8c498481dafe">
 
 ### Challenges and Next Steps ###
 - Use multiple variable regression model to further increase model predictions based on the work in this presentation.
