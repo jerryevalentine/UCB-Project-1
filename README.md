@@ -40,13 +40,11 @@ Table 3.1 below shows the average selling price by month
 
 Table 3.2 below shows the mean selling price and count by season 
 - The Purple line represents the mean selling price, while the blue line represents the count of sales. The analysis reveals distinct patterns across different seasons:
-- - Spring: Prices are moderate, and sales are relatively low.
-- - Summer: Prices significantly increase, with sales remaining consistent.
-- - Winter: Prices hit their lowest point, yet sales numbers rise.
-- Our recommendation
-- - Overall, the analysis suggests that Winter is the best season to buy a car, as prices are lowest during this time, while Summer tends to have the highest prices.
-
-
+   - Spring: Prices are moderate, and sales are relatively low.
+   - Summer: Prices significantly increase, with sales remaining consistent.
+   - Winter: Prices hit their lowest point, yet sales numbers rise.
+- Recommendation
+   - Overall, the analysis suggests that Winter is the best season to buy a car, as prices are lowest during this time, while Summer tends to have the highest prices.
 ## Image 1 ##
 <img src="Images/Sales Price versus Car Models.png" width="400" height="300" style="border: 1px solid black;">
 
