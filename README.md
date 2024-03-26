@@ -1,15 +1,18 @@
 # Instructions #
 - Run the final notebook 'Project_1_Group_7_Consolidated.ipynb' to see visualization and statistics.
-- The data for this notebook is Data/car_prices.csv
+- The data for this notebook must be in "Data/car_prices.csv".
 - However, the file in Github is "Data/car_prices.zip."  The CSV is zipped due to size constraings.
 - The file needs to be unzipped.
 - The notebook must reside in a directory that has the following path and filename: "Data/car_prices.csv"
 
 # Summary and Findings #
-Our team assumes that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations and next steps.
+- Our team assumes that the investigation into car sales price is itterative, not a one-shot project.  Therefore, this is a preliminary analysis that will provide some recommendations and next steps.
+- We found that by drilling-down into finer levels of granularity helped increate the explanatory power of our models as measured by the r-value.
+- Most of the granular models did have significantly high r-values.
 
 ### Goal ###
-The goal of the project is to find and present the best models to explain variation in sales price over time.  Specifically, the goal is to find one or more models that have the highest r-value or r squared value.  For now we only look at models models with two variables.  A single regression model with multiple independent variables is ideal.  However, it might be necessary to consider multiple models.
+- Our team seeks to provide actionable insights regarding car sales price changes over time.
+- The goal of the project is to find and present the best models to explain variation in sales price over time.  Specifically, the goal is to find one or more models that have the highest r-value or r squared value.  For now we only look at models models with two variables.  A single regression model with multiple independent variables is ideal.  However, it might be necessary to consider multiple models.
 A good example of what we would like to acheive is the correlation between Manheim Market Report (mmr) and sale price (0.98).
 Manheim (MMR) website: https://site.manheim.com/en/help/mmr.html
 
@@ -17,12 +20,15 @@ Manheim (MMR) website: https://site.manheim.com/en/help/mmr.html
 We started our analysis at a course granularity of analysis (such as car make or model) and provide statistical analysis and visualizations.  Next, we then drilled down to a finer level of granularity, such as type of car (Truck, Sedan, Luxury, etc.).  This methodology ensures that we can find the models with the highests r-values.
 
 ### Major Findings ###
-As we refined the regression models (course-to-finle granularity), our explanatory power increased (higher r-value).  
+As we refined the regression models (course-to-fine granularity), our explanatory power increased (higher r-value).  
 Table 1 below shows the progression from course to fine level analysis (left-to-right) for different explanatory variables.
-- The table below suggests a lineage regression model with many variables can have provide a very good model. 
-- Row 1:  Shows how drilling-down from make, to make-model, to focusing on type, improves the r-value of the regression model. 
-- Row 2:  Shows that focusing on luxury models versus economy models improves the r-value of the regression model. 
-- Row 2:  Shows that age improves the r-value of the regression model. 
+- The table below suggests a lineage regression model with many variables can have provide a very good model.
+- Seperating trucks from cars allows for a better fitting regression line (green and purple) compared to a model fit to both types of vehicles (black)l
+
+Table 2 below shows the difference in sales price between all cars, luxury and economy cars.
+- The table also suggests a lineage regression model with many variables can have provide a very good model. 
+- Row 1:  Shows that seperating out economy and luxury cars improves the r-value when run against odometer. 
+- Row 2:  Shows that seperating out economy and luxury cars improves the r-value when run against age. 
 
 
 ## Table 1: Make-Model-Type
@@ -41,13 +47,9 @@ Table 1 below shows the progression from course to fine level analysis (left-to-
 | **Age**       | ![All Cars](Images/SalePrice%20v%20age%20all%20Cars.png "All Cars") | ![Luxury Cars](Images/SalePrice%20v%20age%20Luxury%20Cars.png "Luxury Cars") | ![Economy Cars](Images/SalePrice%20v%20age%20economy%20Cars.png "Economy Cars") |
 
 
-
-
 ### Challenges and Next Steps ###
-- Use multiple variable regression model to further increase model predictions based on the work in this presentation.  Here is an example one:
-
-
-- Further clean the dataset
+- Use multiple variable regression model to further increase model predictions based on the work in this presentation.
+- Further clean the dataset is needed.  This dataset seems to be a combination of datasets and therefore the rows are not always compable.
 - Merge the dataset with datasets with other car information, such as miles per gallon, or further refine current measures, such as car type.
 
  Our recommendations are:
