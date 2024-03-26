@@ -33,6 +33,14 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 - Row 1:  Shows that seperating out economy and luxury cars improves the r-value when run against odometer. 
 - Row 2:  Shows that seperating out economy and luxury cars improves the r-value when run against age. 
 
+Table 3 below shows the mean selling price and count by season 
+- The Purple line represents the mean selling price, while the blue line represents the count of sales. The analysis reveals distinct patterns across different seasons:
+- - Spring: Prices are moderate, and sales are relatively low.
+- - Summer: Prices significantly increase, with sales remaining consistent.
+- - Winter: Prices hit their lowest point, yet sales numbers rise.
+- Our recommendation
+- - Overall, the analysis suggests that Winter is the best season to buy a car, as prices are lowest during this time, while Summer tends to have the highest prices.
+
 
 ## Image 1 ##
 <img src="Images/Sales Price versus Car Models.png" width="400" height="300" style="border: 1px solid black;">
@@ -52,6 +60,10 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 | **Odometer**  | ![All Cars](Images/SalePrice%20v%20Odometer%20all%20Cars.png "All Cars") | ![Luxury Cars](Images/SalePrice%20v%20Odometer%20Luxury%20Cars.png "Luxury Cars") | ![Economy Cars](Images/SalePrice%20v%20odometer%20economy%20Cars.png "Economy Cars") |
 | **Age**       | ![All Cars](Images/SalePrice%20v%20age%20all%20Cars.png "All Cars") | ![Luxury Cars](Images/SalePrice%20v%20age%20Luxury%20Cars.png "Luxury Cars") | ![Economy Cars](Images/SalePrice%20v%20age%20economy%20Cars.png "Economy Cars") |
 
+## Table 3: Mean Selling Price and Count by Season ##
+
+<img width="972" alt="Mean Selling Price and Count by Season" src="https://github.com/jerryevalentine/UCB-Project-1/assets/158235055/0d1d8412-cdf7-49c2-9794-8c498481dafe">
+
 
 ### Challenges and Next Steps ###
 - Use multiple variable regression model to further increase model predictions based on the work in this presentation.
@@ -63,6 +75,8 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 - Merging this dataset with datasets with more explanatory columns, such as miles per gallon, will help increase the explanatory power.
 - The dataset is more dirty than expected.  It looks like the dataset is a combination of datasets that have different rules.  For instance, one allows 'Ford' whereas another allows 'ford'.  Furhter, it looks like condition follows two seperate codings.
 
+## Link to ppt slides: 
+https://www.canva.com/design/DAGAMoGRDvQ/zwXBi20P6FkmwyvHbD5Uyg/edit?utm_content=DAGAMoGRDvQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Data Source and Descriptions (car_prices.csv) #
 The sections below provide details on the car_prices.csv.
