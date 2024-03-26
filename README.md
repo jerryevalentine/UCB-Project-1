@@ -21,6 +21,9 @@ We started our analysis at a course granularity of analysis (such as car make or
 
 ### Major Findings ###
 As we refined the regression models (course-to-fine granularity), our explanatory power increased (higher r-value).  
+
+Image 1 displays the difference in mean by economy, luxury and wide range makes.  The largest difference in mean price is between the luxury cars and other car types (economy and wide range makes).  This shows the need to seperate out car types, both by items such as body but also by price.
+
 Table 1 below shows the progression from course to fine level analysis (left-to-right) for different explanatory variables.
 - The table below suggests a lineage regression model with many variables can have provide a very good model.
 - Seperating trucks from cars allows for a better fitting regression line (green and purple) compared to a model fit to both types of vehicles (black)l
@@ -31,7 +34,10 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 - Row 2:  Shows that seperating out economy and luxury cars improves the r-value when run against age. 
 
 
-## Table 1: Make-Model-Type
+## Image 1 ##
+<img src="Images/Sales Price versus Car Models.png" width="400" height="300" style="border: 1px solid black;">
+
+## Table 1: Make-Model-Type ##
 
 | Make | Make-Model| Make-Model-Type |
 |----------|----------|----------|
@@ -39,7 +45,7 @@ Table 2 below shows the difference in sales price between all cars, luxury and e
 
 
 
-## Table 2: Sale Price Versus
+## Table 2: Sale Price Versus ##
 
 |               | All Cars | Luxury | Economy |
 |---------------|----------|--------|---------|
